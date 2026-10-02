@@ -1,0 +1,54 @@
+/* ── AppShell layout ─────────────────────────────────────── */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  min-height: 0;
+}
+
+/* Main content */
+.app-main {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-width: 0;
+  transition: none;
+}
+
+/* Right panel */
+.right-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--panel-width);
+  height: 100%;
+  background: var(--bg-surface);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: var(--z-panel);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Responsive: panel becomes bottom sheet on small screens */
+@media (max-width: 768px) {
+  .right-panel {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    height: 62vh;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    animation: slideInUp 200ms ease forwards;
+  }
+}

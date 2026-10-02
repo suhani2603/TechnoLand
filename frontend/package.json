@@ -1,0 +1,29 @@
+{
+  "name": "technoland-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-map-gl": "^7.1.7",
+    "zustand": "^4.5.5",
+    "@tanstack/react-query": "^5.56.2",
+    "lucide-react": "^0.447.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0"
+  }
+}

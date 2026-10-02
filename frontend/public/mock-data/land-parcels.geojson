@@ -1,0 +1,392 @@
+{
+  "_disclaimer": "SYNTHETIC DEMO DATA ONLY — All parcel boundaries, names, ownership information, and attribute values in this file are entirely fictional and created for the TechnoLand hackathon demonstration. This is NOT official cadastral data, NOT official land records, and does NOT represent any real private land ownership. Do not use for legal, planning, or administrative purposes.",
+  "type": "FeatureCollection",
+  "name": "land-parcels",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "parcel_id": "DDN-LP-001",
+        "name": "Raipur Khas Agricultural Plot A",
+        "village": "Raipur Khas",
+        "tehsil": "Dehradun",
+        "land_use": "agricultural",
+        "area_hectares": 3.8,
+        "cultivation_status": "active",
+        "crop_type": "wheat",
+        "soil_type": "alluvial-loam",
+        "irrigation_access": "limited",
+        "water_access": "moderate",
+        "water_distance_km": 1.2,
+        "infrastructure_access": "moderate",
+        "road_distance_km": 0.8,
+        "elevation_m": 645,
+        "slope_pct": 4,
+        "rainfall_mm": 2100,
+        "suitability": "high",
+        "development_priority": "high",
+        "key_observation": "High agricultural potential but limited canal irrigation constrains productivity.",
+        "nearest_irrigation": "Jakhan Minor Canal (1.8 km)",
+        "nearest_water_body": "Song River tributary (1.2 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.905, 30.345], [77.915, 30.345], [77.915, 30.337], [77.905, 30.337], [77.905, 30.345]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "parcel_id": "DDN-LP-002",
+        "name": "Majra Demo Block East",
+        "village": "Majra",
+        "tehsil": "Dehradun",
+        "land_use": "agricultural",
+        "area_hectares": 5.2,
+        "cultivation_status": "active",
+        "crop_type": "rice",
+        "soil_type": "clay-loam",
+        "irrigation_access": "good",
+        "water_access": "good",
+        "water_distance_km": 0.4,
+        "infrastructure_access": "good",
+        "road_distance_km": 0.3,
+        "elevation_m": 628,
+        "slope_pct": 2,
+        "rainfall_mm": 2100,
+        "suitability": "high",
+        "development_priority": "moderate",
+        "key_observation": "Well-connected parcel with canal access. Suitable for intensification.",
+        "nearest_irrigation": "Rispana Irrigation Branch (0.5 km)",
+        "nearest_water_body": "Rispana River (0.4 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.940, 30.365], [77.952, 30.365], [77.952, 30.356], [77.940, 30.356], [77.940, 30.365]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "parcel_id": "DDN-LP-003",
+        "name": "Niranjanpur East Plot",
+        "village": "Niranjanpur",
+        "tehsil": "Dehradun",
+        "land_use": "agricultural",
+        "area_hectares": 2.4,
+        "cultivation_status": "fallow",
+        "crop_type": null,
+        "soil_type": "sandy-loam",
+        "irrigation_access": "none",
+        "water_access": "limited",
+        "water_distance_km": 3.1,
+        "infrastructure_access": "low",
+        "road_distance_km": 2.4,
+        "elevation_m": 710,
+        "slope_pct": 9,
+        "rainfall_mm": 1950,
+        "suitability": "moderate",
+        "development_priority": "high",
+        "key_observation": "Fallow land with no irrigation access. High priority for water infrastructure investment.",
+        "nearest_irrigation": "None within 4 km",
+        "nearest_water_body": "Seasonal stream (3.1 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.960, 30.350], [77.970, 30.350], [77.970, 30.342], [77.960, 30.342], [77.960, 30.350]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "parcel_id": "DDN-LP-004",
+        "name": "Doiwala Kisan Plot B",
+        "village": "Doiwala",
+        "tehsil": "Doiwala",
+        "land_use": "agricultural",
+        "area_hectares": 7.1,
+        "cultivation_status": "active",
+        "crop_type": "sugarcane",
+        "soil_type": "alluvial",
+        "irrigation_access": "good",
+        "water_access": "good",
+        "water_distance_km": 0.6,
+        "infrastructure_access": "good",
+        "road_distance_km": 0.4,
+        "elevation_m": 490,
+        "slope_pct": 1,
+        "rainfall_mm": 1850,
+        "suitability": "high",
+        "development_priority": "low",
+        "key_observation": "Productive sugarcane parcel. Already well-served by infrastructure.",
+        "nearest_irrigation": "Eastern Yamuna Canal (0.7 km)",
+        "nearest_water_body": "Yamuna River tributary (0.6 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.050, 30.270], [78.065, 30.270], [78.065, 30.260], [78.050, 30.260], [78.050, 30.270]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "parcel_id": "DDN-LP-005",
+        "name": "Selaqui Mixed Land Block",
+        "village": "Selaqui",
+        "tehsil": "Dehradun",
+        "land_use": "mixed",
+        "area_hectares": 11.3,
+        "cultivation_status": "partial",
+        "crop_type": "vegetable",
+        "soil_type": "loam",
+        "irrigation_access": "limited",
+        "water_access": "moderate",
+        "water_distance_km": 1.8,
+        "infrastructure_access": "moderate",
+        "road_distance_km": 1.1,
+        "elevation_m": 560,
+        "slope_pct": 5,
+        "rainfall_mm": 1750,
+        "suitability": "moderate",
+        "development_priority": "moderate",
+        "key_observation": "Mixed-use land with partial cultivation. Road access moderate; irrigation limited.",
+        "nearest_irrigation": "Minor canal link (2.2 km)",
+        "nearest_water_body": "Seasonal nala (1.8 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.835, 30.350], [77.855, 30.350], [77.855, 30.335], [77.835, 30.335], [77.835, 30.350]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "parcel_id": "DDN-LP-006",
+        "name": "Mothrowala Village Plot",
+        "village": "Mothrowala",
+        "tehsil": "Dehradun",
+        "land_use": "agricultural",
+        "area_hectares": 4.6,
+        "cultivation_status": "active",
+        "crop_type": "maize",
+        "soil_type": "red-laterite",
+        "irrigation_access": "none",
+        "water_access": "limited",
+        "water_distance_km": 2.8,
+        "infrastructure_access": "low",
+        "road_distance_km": 3.2,
+        "elevation_m": 820,
+        "slope_pct": 14,
+        "rainfall_mm": 2400,
+        "suitability": "moderate",
+        "development_priority": "high",
+        "key_observation": "Rain-fed upland parcel with no irrigation. High rainfall potential offset by steep slope and poor access.",
+        "nearest_irrigation": "None identified",
+        "nearest_water_body": "Hill stream (2.8 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.025, 30.385], [78.038, 30.385], [78.038, 30.375], [78.025, 30.375], [78.025, 30.385]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "parcel_id": "DDN-LP-007",
+        "name": "Shyampur Lowland Farm",
+        "village": "Shyampur",
+        "tehsil": "Rishikesh",
+        "land_use": "agricultural",
+        "area_hectares": 9.0,
+        "cultivation_status": "active",
+        "crop_type": "rice",
+        "soil_type": "alluvial",
+        "irrigation_access": "good",
+        "water_access": "good",
+        "water_distance_km": 0.3,
+        "infrastructure_access": "moderate",
+        "road_distance_km": 1.5,
+        "elevation_m": 340,
+        "slope_pct": 1,
+        "rainfall_mm": 1900,
+        "suitability": "high",
+        "development_priority": "moderate",
+        "key_observation": "Excellent alluvial soil near Ganga. Road access could be improved for market connectivity.",
+        "nearest_irrigation": "Ganga-fed channel (0.4 km)",
+        "nearest_water_body": "Ganga River (0.3 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.110, 30.105], [78.125, 30.105], [78.125, 30.095], [78.110, 30.095], [78.110, 30.105]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "parcel_id": "DDN-LP-008",
+        "name": "Vikasnagar Terrace Plot",
+        "village": "Vikasnagar",
+        "tehsil": "Chakrata",
+        "land_use": "agricultural",
+        "area_hectares": 2.1,
+        "cultivation_status": "fallow",
+        "crop_type": null,
+        "soil_type": "sandy-loam",
+        "irrigation_access": "none",
+        "water_access": "limited",
+        "water_distance_km": 4.2,
+        "infrastructure_access": "moderate",
+        "road_distance_km": 0.9,
+        "elevation_m": 890,
+        "slope_pct": 18,
+        "rainfall_mm": 2600,
+        "suitability": "low",
+        "development_priority": "low",
+        "key_observation": "Steep terraced land. High rainfall but poor soil retention. Limited irrigation potential.",
+        "nearest_irrigation": "None identified",
+        "nearest_water_body": "Hill stream (4.2 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.760, 30.455], [77.772, 30.455], [77.772, 30.446], [77.760, 30.446], [77.760, 30.455]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "parcel_id": "DDN-LP-009",
+        "name": "Premnagar Demo Plot C",
+        "village": "Premnagar",
+        "tehsil": "Dehradun",
+        "land_use": "agricultural",
+        "area_hectares": 6.5,
+        "cultivation_status": "active",
+        "crop_type": "wheat",
+        "soil_type": "alluvial-loam",
+        "irrigation_access": "moderate",
+        "water_access": "moderate",
+        "water_distance_km": 1.5,
+        "infrastructure_access": "good",
+        "road_distance_km": 0.2,
+        "elevation_m": 580,
+        "slope_pct": 3,
+        "rainfall_mm": 2000,
+        "suitability": "high",
+        "development_priority": "moderate",
+        "key_observation": "Good road access and moderate irrigation. Expansion of canal network could unlock higher yields.",
+        "nearest_irrigation": "Bindal Irrigation Link (1.9 km)",
+        "nearest_water_body": "Bindal River (1.5 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.985, 30.312], [77.998, 30.312], [77.998, 30.302], [77.985, 30.302], [77.985, 30.312]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "parcel_id": "DDN-LP-010",
+        "name": "Dakpathar Riverside Block",
+        "village": "Dakpathar",
+        "tehsil": "Vikasnagar",
+        "land_use": "agricultural",
+        "area_hectares": 13.4,
+        "cultivation_status": "active",
+        "crop_type": "sugarcane",
+        "soil_type": "alluvial",
+        "irrigation_access": "good",
+        "water_access": "good",
+        "water_distance_km": 0.2,
+        "infrastructure_access": "moderate",
+        "road_distance_km": 1.8,
+        "elevation_m": 420,
+        "slope_pct": 2,
+        "rainfall_mm": 1800,
+        "suitability": "high",
+        "development_priority": "low",
+        "key_observation": "Large productive parcel. Yamuna proximity ensures reliable water. Market road needs improvement.",
+        "nearest_irrigation": "Yamuna canal network (0.3 km)",
+        "nearest_water_body": "Yamuna River (0.2 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.780, 30.495], [77.800, 30.495], [77.800, 30.480], [77.780, 30.480], [77.780, 30.495]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "parcel_id": "DDN-LP-011",
+        "name": "Rishikesh Fringe Plot",
+        "village": "Rishikesh Rural",
+        "tehsil": "Rishikesh",
+        "land_use": "mixed",
+        "area_hectares": 3.3,
+        "cultivation_status": "partial",
+        "crop_type": "vegetable",
+        "soil_type": "loam",
+        "irrigation_access": "limited",
+        "water_access": "good",
+        "water_distance_km": 0.5,
+        "infrastructure_access": "good",
+        "road_distance_km": 0.5,
+        "elevation_m": 355,
+        "slope_pct": 6,
+        "rainfall_mm": 1950,
+        "suitability": "moderate",
+        "development_priority": "moderate",
+        "key_observation": "Periurban plot. Good connectivity but partially built-up. Vegetable cultivation viable.",
+        "nearest_irrigation": "Seasonal diversion (0.8 km)",
+        "nearest_water_body": "Ganga River (0.5 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.095, 30.135], [78.107, 30.135], [78.107, 30.126], [78.095, 30.126], [78.095, 30.135]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "parcel_id": "DDN-LP-012",
+        "name": "Lacchiwala Forest Buffer",
+        "village": "Lacchiwala",
+        "tehsil": "Doiwala",
+        "land_use": "forest",
+        "area_hectares": 28.0,
+        "cultivation_status": "none",
+        "crop_type": null,
+        "soil_type": "forest-humus",
+        "irrigation_access": "none",
+        "water_access": "moderate",
+        "water_distance_km": 1.0,
+        "infrastructure_access": "low",
+        "road_distance_km": 4.5,
+        "elevation_m": 780,
+        "slope_pct": 22,
+        "rainfall_mm": 2200,
+        "suitability": "low",
+        "development_priority": "low",
+        "key_observation": "Protected forest buffer. Conservation value high. No agricultural development recommended.",
+        "nearest_irrigation": "N/A — protected area",
+        "nearest_water_body": "Forest stream (1.0 km)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.000, 30.225], [78.025, 30.225], [78.025, 30.205], [78.000, 30.205], [78.000, 30.225]]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "_disclaimer": "SYNTHETIC DEMO DATA ONLY — All infrastructure features (roads, schools, health centres, storage facilities) are entirely fictional, created for TechnoLand hackathon demo purposes.",
+  "type": "FeatureCollection",
+  "name": "infrastructure",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 301,
+      "properties": {
+        "feature_id": "DDN-INF-001",
+        "name": "NH-72 Demo Segment (Dehradun–Haridwar)",
+        "category": "road",
+        "road_type": "national_highway",
+        "surface": "asphalt",
+        "length_km": 52.0,
+        "condition": "good",
+        "notes": "Primary national highway connecting Dehradun to Haridwar. Good condition."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[77.900, 30.355], [77.970, 30.320], [78.030, 30.265], [78.090, 30.200], [78.140, 30.130]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "properties": {
+        "feature_id": "DDN-INF-002",
+        "name": "Mussoorie Road Demo Segment",
+        "category": "road",
+        "road_type": "state_highway",
+        "surface": "asphalt",
+        "length_km": 34.0,
+        "condition": "fair",
+        "notes": "Hill road connecting Dehradun to Mussoorie. Some sections need repair."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[77.980, 30.325], [77.960, 30.370], [77.930, 30.410], [77.900, 30.440]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "properties": {
+        "feature_id": "DDN-INF-003",
+        "name": "Selaqui–Doiwala Link Road",
+        "category": "road",
+        "road_type": "district_road",
+        "surface": "asphalt",
+        "length_km": 18.5,
+        "condition": "fair",
+        "notes": "Important link road for western villages. Fair condition; some potholes in rainy season."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[77.840, 30.345], [77.870, 30.330], [77.910, 30.310], [77.960, 30.295]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "properties": {
+        "feature_id": "DDN-INF-004",
+        "name": "Raipur–Niranjanpur Road",
+        "category": "road",
+        "road_type": "village_road",
+        "surface": "gravel",
+        "length_km": 11.2,
+        "condition": "poor",
+        "notes": "Gravel track serving northern villages. Poor condition. Impassable in heavy rain."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[77.908, 30.342], [77.930, 30.355], [77.950, 30.365], [77.965, 30.347]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "properties": {
+        "feature_id": "DDN-INF-005",
+        "name": "Doiwala–Lacchiwala Road",
+        "category": "road",
+        "road_type": "district_road",
+        "surface": "asphalt",
+        "length_km": 22.0,
+        "condition": "good",
+        "notes": "District road serving Doiwala tehsil. Well maintained."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[78.055, 30.265], [78.025, 30.242], [78.008, 30.225]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "properties": {
+        "feature_id": "DDN-INF-006",
+        "name": "Rishikesh–Shyampur Road",
+        "category": "road",
+        "road_type": "state_highway",
+        "surface": "asphalt",
+        "length_km": 16.0,
+        "condition": "good",
+        "notes": "State highway connecting Rishikesh to Shyampur farming belt."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[78.100, 30.135], [78.112, 30.118], [78.118, 30.098]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "properties": {
+        "feature_id": "DDN-INF-007",
+        "name": "Raipur Khas Primary School (Demo)",
+        "category": "school",
+        "facility_type": "primary_school",
+        "capacity": 180,
+        "condition": "functional",
+        "serves_villages": "Raipur Khas, Badripur",
+        "notes": "Demo primary school. Serves 2 villages. Building needs repair."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.909, 30.341]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "properties": {
+        "feature_id": "DDN-INF-008",
+        "name": "Majra Village School (Demo)",
+        "category": "school",
+        "facility_type": "secondary_school",
+        "capacity": 320,
+        "condition": "good",
+        "serves_villages": "Majra, Niranjanpur, Kanwali",
+        "notes": "Demo secondary school. Well-staffed. Serves 3 villages."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.946, 30.360]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "properties": {
+        "feature_id": "DDN-INF-009",
+        "name": "Doiwala PHC (Demo)",
+        "category": "health_center",
+        "facility_type": "primary_health_centre",
+        "capacity": "30 beds",
+        "condition": "functional",
+        "serves_villages": "Doiwala, Majri, Badripur, Kandali",
+        "notes": "Demo primary health centre. Critical gap in specialist services. No specialist doctors."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.057, 30.265]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 310,
+      "properties": {
+        "feature_id": "DDN-INF-010",
+        "name": "Selaqui Sub-Health Centre (Demo)",
+        "category": "health_center",
+        "facility_type": "sub_health_centre",
+        "capacity": "5 beds",
+        "condition": "poor",
+        "serves_villages": "Selaqui, Kargi, Malsi",
+        "notes": "Demo sub-health centre. Very limited capacity. Long distances to nearest hospital."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.843, 30.342]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311,
+      "properties": {
+        "feature_id": "DDN-INF-011",
+        "name": "Raipur Kisan Seva Kendra (Demo)",
+        "category": "agricultural_storage",
+        "facility_type": "procurement_centre",
+        "capacity": "500 MT",
+        "condition": "functional",
+        "serves_villages": "Raipur Khas, Mothrowala, Badripur",
+        "notes": "Demo agricultural procurement and storage centre. Active during harvest season."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.912, 30.339]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 312,
+      "properties": {
+        "feature_id": "DDN-INF-012",
+        "name": "Doiwala Grain Storage Depot (Demo)",
+        "category": "agricultural_storage",
+        "facility_type": "cold_storage",
+        "capacity": "1200 MT",
+        "condition": "good",
+        "serves_villages": "Doiwala, Premnagar, Kandali",
+        "notes": "Demo cold storage facility. Handles sugarcane and rice. High utilisation during kharif harvest."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.053, 30.263]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "properties": {
+        "feature_id": "DDN-INF-013",
+        "name": "Niranjanpur Irrigation Pump Station (Demo)",
+        "category": "irrigation_facility",
+        "facility_type": "pump_station",
+        "capacity": "5 cusec",
+        "condition": "non-functional",
+        "serves_villages": "Niranjanpur, Kanwali",
+        "notes": "Demo pump station. Currently non-functional due to equipment failure. Key bottleneck for northern parcels."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.964, 30.346]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "properties": {
+        "feature_id": "DDN-INF-014",
+        "name": "Jakhan Canal Headworks (Demo)",
+        "category": "irrigation_facility",
+        "facility_type": "canal_headworks",
+        "capacity": "12 cusec",
+        "condition": "functional",
+        "serves_villages": "Raipur Khas, Jakhan, Badripur",
+        "notes": "Demo canal headworks on Song River. Operational. Needs desilting."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.925, 30.333]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "properties": {
+        "feature_id": "DDN-INF-015",
+        "name": "Premnagar Weekly Market (Demo)",
+        "category": "market",
+        "facility_type": "weekly_market",
+        "capacity": "medium",
+        "condition": "functional",
+        "serves_villages": "Premnagar, Arcadia, Badripur, Nathanpur",
+        "notes": "Demo weekly agricultural market (haat). Operates every Thursday. Important for smallholder produce sale."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.991, 30.307]
+      }
+    }
+  ]
+}

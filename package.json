@@ -1,0 +1,19 @@
+{
+  "name": "technoland",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TechnoLand — GIS-based decision-support platform for land, agriculture, and rural development",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "infrastructure"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "lint": "npm run lint --workspace=frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

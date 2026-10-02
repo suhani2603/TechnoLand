@@ -1,0 +1,182 @@
+/* ── Navbar ─────────────────────────────────────────────── */
+.navbar {
+  height: var(--navbar-height);
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-4);
+  gap: var(--space-4);
+  flex-shrink: 0;
+  z-index: var(--z-nav);
+  position: relative;
+}
+
+/* ── Brand ──────────────────────────────────────────────── */
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+.navbar__logo-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: var(--radius-md);
+  line-height: 0;
+  transition: opacity var(--t-fast);
+  display: flex;
+}
+.navbar__logo-btn:hover { opacity: 0.8; }
+
+.navbar__title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.navbar__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+.navbar__subtitle {
+  font-size: 10px;
+  color: var(--text-faint);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* ── Region pill ────────────────────────────────────────── */
+.navbar__region {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: rgba(34,197,94,0.06);
+  border: 1px solid rgba(34,197,94,0.15);
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  white-space: nowrap;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.navbar__region svg { color: var(--brand-400); }
+.navbar__region-name { color: var(--text-muted); font-weight: 500; }
+.navbar__region-sep {
+  width: 1px;
+  height: 10px;
+  background: var(--border);
+}
+.navbar__region-data { color: var(--text-faint); font-size: 10px; }
+
+/* ── Spacer ─────────────────────────────────────────────── */
+.navbar__spacer { flex: 1; }
+
+/* ── Quick nav tabs ─────────────────────────────────────── */
+.navbar__tabs {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.navbar__tab {
+  padding: 5px 12px;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-faint);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all var(--t-fast);
+  white-space: nowrap;
+}
+.navbar__tab:hover {
+  background: var(--bg-hover);
+  color: var(--text-muted);
+}
+.navbar__tab.active {
+  background: var(--bg-active);
+  color: var(--brand-400);
+  font-weight: 600;
+}
+
+/* ── Actions ────────────────────────────────────────────── */
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.navbar__action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all var(--t-fast);
+  white-space: nowrap;
+}
+.navbar__action-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+  border-color: var(--border-light);
+}
+.navbar__action-btn.active {
+  background: var(--bg-active);
+  border-color: var(--border-brand);
+  color: var(--brand-400);
+}
+
+.navbar__action-label { font-size: 12px; }
+
+/* Demo pill */
+.navbar__demo-pill {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  background: rgba(251,191,36,0.07);
+  border: 1px solid rgba(251,191,36,0.18);
+  border-radius: var(--radius-full);
+  font-size: 10px;
+  font-weight: 600;
+  color: #fbbf24;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.navbar__demo-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fbbf24;
+  animation: pulse 2.5s ease infinite;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .navbar__region { display: none; }
+}
+@media (max-width: 700px) {
+  .navbar__tabs { display: none; }
+  .navbar__action-label { display: none; }
+}
+@media (max-width: 480px) {
+  .navbar__subtitle { display: none; }
+  .navbar__demo-pill { display: none; }
+}

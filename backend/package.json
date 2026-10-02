@@ -1,0 +1,17 @@
+{
+  "name": "technoland-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TechnoLand backend — Lambda handlers for GIS layers, features, and AI chat",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test lambdas/**/*.test.js",
+    "lint": "eslint lambdas shared --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

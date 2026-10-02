@@ -1,0 +1,26 @@
+{
+  "name": "technoland-infrastructure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TechnoLand AWS CDK infrastructure — defines all cloud resources",
+  "scripts": {
+    "build":   "tsc",
+    "watch":   "tsc -w",
+    "synth":   "cdk synth",
+    "diff":    "cdk diff",
+    "lint":    "eslint lib bin --ext .ts"
+  },
+  "dependencies": {
+    "aws-cdk-lib":    "^2.160.0",
+    "constructs":     "^10.4.2"
+  },
+  "devDependencies": {
+    "aws-cdk":        "^2.160.0",
+    "typescript":     "^5.6.2",
+    "@types/node":    "^22.7.5",
+    "ts-node":        "^10.9.2",
+    "eslint":         "^9.11.1",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser":        "^8.8.0"
+  }
+}

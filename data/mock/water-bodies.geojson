@@ -1,0 +1,159 @@
+{
+  "_disclaimer": "SYNTHETIC DEMO DATA ONLY — Water body boundaries, names, capacities, and attributes are entirely fictional, created for the TechnoLand hackathon demo. Not official hydrological data.",
+  "type": "FeatureCollection",
+  "name": "water-bodies",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 201,
+      "properties": {
+        "feature_id": "DDN-WB-001",
+        "name": "Song River Demo Reach",
+        "type": "river",
+        "status": "perennial",
+        "approximate_capacity": "medium flow",
+        "irrigation_coverage": "partial",
+        "related_area_ha": 3200,
+        "seasonal": false,
+        "notes": "Major perennial river feeding the eastern Doon valley. Source of irrigation for surrounding agricultural belt."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.930, 30.332], [77.938, 30.332], [78.020, 30.252], [78.012, 30.248], [77.922, 30.328], [77.930, 30.332]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "properties": {
+        "feature_id": "DDN-WB-002",
+        "name": "Rispana Stream Demo Reach",
+        "type": "river",
+        "status": "seasonal",
+        "approximate_capacity": "small-medium",
+        "irrigation_coverage": "limited",
+        "related_area_ha": 850,
+        "seasonal": true,
+        "notes": "Monsoon-fed seasonal river passing through central Doon. Serves as water source during kharif season."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.942, 30.362], [77.950, 30.362], [77.975, 30.318], [77.967, 30.314], [77.934, 30.358], [77.942, 30.362]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "properties": {
+        "feature_id": "DDN-WB-003",
+        "name": "Bindal River Demo Reach",
+        "type": "river",
+        "status": "seasonal",
+        "approximate_capacity": "small",
+        "irrigation_coverage": "limited",
+        "related_area_ha": 520,
+        "seasonal": true,
+        "notes": "Small seasonal river. Limited irrigation use due to erratic flow. Flood risk management needed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.990, 30.318], [77.998, 30.318], [78.005, 30.296], [77.997, 30.292], [77.982, 30.314], [77.990, 30.318]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "properties": {
+        "feature_id": "DDN-WB-004",
+        "name": "Jakhan Minor Canal Demo",
+        "type": "canal",
+        "status": "operational",
+        "approximate_capacity": "minor canal",
+        "irrigation_coverage": "good",
+        "related_area_ha": 1800,
+        "seasonal": false,
+        "notes": "Demo irrigation canal derived from Song River. Serves eastern Raipur farming area. Year-round operation during crop seasons."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.922, 30.350], [77.930, 30.350], [77.930, 30.330], [77.922, 30.330], [77.922, 30.350]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "properties": {
+        "feature_id": "DDN-WB-005",
+        "name": "Eastern Yamuna Canal Demo Reach",
+        "type": "canal",
+        "status": "operational",
+        "approximate_capacity": "major canal",
+        "irrigation_coverage": "extensive",
+        "related_area_ha": 8500,
+        "seasonal": false,
+        "notes": "Major irrigation canal from Yamuna. Backbone of eastern Dehradun district irrigation. High reliability."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.040, 30.280], [78.050, 30.280], [78.060, 30.240], [78.050, 30.236], [78.030, 30.276], [78.040, 30.280]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "properties": {
+        "feature_id": "DDN-WB-006",
+        "name": "Ganga Riverine Belt Demo",
+        "type": "river",
+        "status": "perennial",
+        "approximate_capacity": "large flow",
+        "irrigation_coverage": "extensive",
+        "related_area_ha": 12000,
+        "seasonal": false,
+        "notes": "Ganga river corridor in Rishikesh area. Perennial high-volume flow. Supports extensive agricultural activity in adjoining plains."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.095, 30.155], [78.112, 30.155], [78.125, 30.090], [78.108, 30.086], [78.078, 30.151], [78.095, 30.155]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "properties": {
+        "feature_id": "DDN-WB-007",
+        "name": "Selaqui Seasonal Pond",
+        "type": "waterbody",
+        "status": "seasonal",
+        "approximate_capacity": "small pond",
+        "irrigation_coverage": "very limited",
+        "related_area_ha": 120,
+        "seasonal": true,
+        "notes": "Small seasonal pond. Monsoon-dependent. Used for local livestock and minor kitchen garden irrigation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.841, 30.344], [77.848, 30.344], [77.848, 30.338], [77.841, 30.338], [77.841, 30.344]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "properties": {
+        "feature_id": "DDN-WB-008",
+        "name": "Yamuna River Demo Reach",
+        "type": "river",
+        "status": "perennial",
+        "approximate_capacity": "large flow",
+        "irrigation_coverage": "extensive",
+        "related_area_ha": 9500,
+        "seasonal": false,
+        "notes": "Yamuna river along the western boundary of the district. Perennial source feeding multiple canal systems."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.785, 30.512], [77.800, 30.512], [77.802, 30.468], [77.787, 30.464], [77.783, 30.508], [77.785, 30.512]]]
+      }
+    }
+  ]
+}

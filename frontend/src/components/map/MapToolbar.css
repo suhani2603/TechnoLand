@@ -1,0 +1,42 @@
+/* ── Map toolbar ─────────────────────────────────────────── */
+.map-toolbar {
+  position: absolute;
+  bottom: var(--space-8);
+  left: var(--space-4);
+  z-index: var(--z-overlay);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  box-shadow: var(--shadow-md);
+}
+
+.map-toolbar__btn {
+  width: 30px; height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--t-fast);
+}
+.map-toolbar__btn:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+}
+.map-toolbar__btn--active {
+  background: var(--bg-active);
+  color: var(--brand-400);
+}
+
+.map-toolbar__sep {
+  height: 1px;
+  background: var(--border);
+  margin: 1px 3px;
+}
