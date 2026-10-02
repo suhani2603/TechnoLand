@@ -6,14 +6,13 @@
 .landing {
   position: relative;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: #0a1520;
   color: #e2e8f0;
   font-family: var(--font-sans);
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 /* ── Background ─────────────────────────────────────────── */

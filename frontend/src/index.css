@@ -184,9 +184,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* App root — full viewport, no scroll (landing page is scrollable via overflow-y:auto on .landing) */
+/* #root scrolls for the landing page.
+   The app-shell (map/dashboard) resets to 100vh + overflow:hidden for itself. */
 #root {
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* ── Scrollbar ──────────────────────────────────────────── */
